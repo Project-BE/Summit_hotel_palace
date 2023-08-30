@@ -344,6 +344,20 @@ footer .container {
 
 @media (max-width: 600px){
   
+  -background {
+  /* The image used */
+  background-image: url("img/bannerSummit.jpg");
+
+  /* Set a specific height */
+  height: 80vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600;
+}
+  
   #nav-container{
     width: 90vw;
   }
