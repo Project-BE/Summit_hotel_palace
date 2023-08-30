@@ -92,11 +92,7 @@ header {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   font-weight: 700px;
-<<<<<<< HEAD
   margin-top: 15rem;
-=======
-  margin-top: 300px;
->>>>>>> master
   text-align: center;
 }
 
@@ -128,13 +124,8 @@ header {
   font-size: 30px;
   letter-spacing: 10px;
   margin: 5rem auto 2rem auto;
-<<<<<<< HEAD
   max-width: 650px;
   margin-top: 3rem;
-=======
-  max-width: 750px;
-  margin-top: 7rem;
->>>>>>> master
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -163,7 +154,6 @@ header {
 }
 
 #about-us img {
-<<<<<<< HEAD
   width: 49vw;
 }
 
@@ -174,11 +164,6 @@ header {
   flex-direction: row-reverse;
 }
 
-=======
-  width: 49.5vw;
-}
-
->>>>>>> master
 /* Rooms */
 
 #rooms {
@@ -204,15 +189,9 @@ header {
 #rooms p {
   font-size: 30px;
   letter-spacing: 10px;
-<<<<<<< HEAD
   margin: auto;
   max-width: 700px;
   margin-top: 2.5rem;
-=======
-  margin: 5rem auto -2.5rem auto;
-  max-width: 750px;
-  margin-top: 7rem;
->>>>>>> master
   text-align: center;
 }
 
@@ -245,7 +224,6 @@ header {
 }
 
 #rooms img {
-<<<<<<< HEAD
   width: 49vw;
 }
 
@@ -254,9 +232,6 @@ header {
   flex-wrap: wrap;
   align-items: center;
   flex-direction: row-reverse;
-=======
-  width: 49.5vw;
->>>>>>> master
 }
 
 /* Facilities */
@@ -273,11 +248,7 @@ header {
   text-align: center;
   margin-bottom: 3.5rem;
   text-transform: uppercase;
-<<<<<<< HEAD
   width: 20%;
-=======
-  width: 22%;
->>>>>>> master
   font-size: 60px;
 }
 
@@ -293,11 +264,8 @@ header {
 #facilities ul{
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   padding: 0;
   margin: 0;
-=======
->>>>>>> master
   gap: 4rem;
 }
 
@@ -309,7 +277,6 @@ header {
   font-weight: 700;
   color: #fff;
   text-align: center;
-<<<<<<< HEAD
 }
 
 #banner {
@@ -321,20 +288,6 @@ header {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-=======
-  margin-top: 375px;
-}
-
-#banner {
-  background-image: url(/img/bannerFinal.jpg);
-  background-size: cover;
-  height: 90vh;
-}
-
-.bannerText {
-  display: flex;
-  align-items: center;
->>>>>>> master
 }
 
 /* Back To Top */
@@ -345,7 +298,6 @@ header {
   font-size: 40px;
   font-family: "Playfair Display", serif;
   border-bottom: 3px solid var(--black-color);
-<<<<<<< HEAD
 }
 
 #backToTop {
@@ -353,80 +305,45 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-=======
-  
-}
-
-#backToTop {
-  text-align: center;
-  height: 50vh;
-  padding-top: 12rem;
->>>>>>> master
 }
 
 /* Footer */
 
 footer {
   background-color: #DFA878;
-<<<<<<< HEAD
 }
 
 footer li{
   list-style: none;
   margin-left: 1rem;
-=======
-  position: static;
-  bottom: 0;
-}
-
-footer li{
-  display: inline;
-  list-style: none;
-  margin-left: 2rem;
->>>>>>> master
   font-size: 50px;
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 footer ul{
   padding: 0;
   display: flex;
 }
 
-=======
->>>>>>> master
 footer p{
   font-size: 20px;
 }
 
-<<<<<<< HEAD
 #contactArea {
   display: flex;
   justify-content: space-between;
   padding: 50px;
-=======
-footer .container {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
->>>>>>> master
   
 }
 
 #copy{
   font-size: 20px;
   text-align: center;
-<<<<<<< HEAD
   padding-bottom: 1px;
-=======
-  padding-bottom: 10px;
->>>>>>> master
 }
 
 #copy span {
   font-weight: bold;
-<<<<<<< HEAD
 }
 
 /*MEDIA QUERYS*/
@@ -497,6 +414,4 @@ footer .container {
     align-items: center;
     flex-direction: column;
   }
-=======
->>>>>>> master
 }
