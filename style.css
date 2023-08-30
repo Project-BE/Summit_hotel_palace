@@ -378,7 +378,7 @@ footer p{
   
   -background {
   /* The image used */
-  background-image: url("img/bannerSummit.jpg");
+  background-image: url(img/bannerSummit.jpg);
 
   /* Set a specific height */
   height: 80vh;
