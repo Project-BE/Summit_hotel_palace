@@ -362,6 +362,10 @@ footer p{
   
 }
 
+#socialMedia li {
+  cursor: pointer;
+}
+
 #copy{
   font-size: 20px;
   text-align: center;
