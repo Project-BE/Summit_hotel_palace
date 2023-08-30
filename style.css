@@ -1,6 +1,7 @@
 body {
   background-color: var(--primary-color);
   overflow-x: hidden;
+  
 }
 
 p,
@@ -10,14 +11,21 @@ h2 {
 }
 
 #summit-background {
-  background-image: url(img/bannerSummit.jpg);
+  /* The image used */
+  background-image: url("img/bannerSummit.jpg");
+
+  /* Set a specific height */
   height: 95vh;
-  width: 100vw;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 :root {
-  --primary-color: #fffcfc;
+  --primary-color: #F5F3E1;
   --secondary-color: #fdc298;
   --white-color: #fff;
   --black-color: #000;
@@ -25,9 +33,38 @@ h2 {
 }
 
 /* Navbar */
+
 header,
 .navbar {
   padding: 1.5rem 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#nav-container {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  width: 55%;
+  height: 80px;
+  color: #000;
+  background: transparent;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.6s;
+}
+
+#nav-container.sticky {
+  color: #fff;
+  background: #0000007d;
+  height: 80px;
+  transition: 0.5s;
 }
 
 #nav-container {
@@ -43,6 +80,7 @@ header,
   border-bottom: 3px solid var(--stroke);
   color: #fff;
 }
+
 #navbar-links a:hover {
   border-bottom: 3px solid var(--white-color);
   color: var(--primary-color);
@@ -55,9 +93,11 @@ header,
   font-family: "Playfair Display", serif;
   font-size: 80px;
   font-weight: 700px;
-  margin-top: 230px;
+  margin-top: 15rem;
   text-align: center;
 }
+
+/* About Us */
 
 #about-us {
   margin-top: 3rem;
@@ -82,11 +122,11 @@ header,
 }
 
 #about-us p {
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 10px;
-  margin: 5rem 0 2rem 3rem;
+  margin: 5rem auto 2rem auto;
   max-width: 650px;
-  margin-top: 7rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -101,10 +141,12 @@ header,
   background-color: var(--secondary-color);
   width: 327px;
   font-size: 30px;
+  font-weight: 500;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
 }
 
 #about-us a:hover {
-  background-color: var();
+  background-color: #fbb582;
 }
 
 #about-us span {
@@ -112,6 +154,236 @@ header,
   font-weight: bold;
 }
 
-#aboutus1 {
-  width: 49.5vw;
+#about-us img {
+  width: 49vw;
+}
+
+#about-us #about2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* Rooms */
+
+#rooms {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding-bottom: 6rem;
+  border-bottom: 2px solid var(--black-color);
+}
+
+#rooms h2 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  width: 22%;
+  font-size: 60px;
+}
+
+#rooms h2 {
+  border-bottom: 3px solid var(--black-color);
+}
+
+#rooms p {
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin: auto;
+  max-width: 700px;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+#rooms .value {
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+#rooms a {
+  display: block;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin: 0 auto;
+  border: none;
+  background-color: var(--secondary-color);
+  width: 327px;
+  font-size: 30px;
+  font-weight: 500;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+#rooms a:hover {
+  background-color: #fbb582;
+}
+
+#rooms span {
+  display: block;
+  font-weight: bold;
+}
+
+#rooms img {
+  width: 49vw;
+}
+
+#rooms #grand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+/* Facilities */
+
+#facilities {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding-bottom: 6rem;
+  border-bottom: 2px solid var(--black-color);
+}
+
+#facilities h2 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  text-transform: uppercase;
+  width: 20%;
+  font-size: 60px;
+}
+
+#facilities h2 {
+  border-bottom: 3px solid var(--black-color);
+}
+
+#facilities li{
+  list-style: none;
+  font-size: 80px;
+}
+
+#facilities ul{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Bottom Banner */
+
+#banner h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/bannerFinal.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/* Back To Top */
+
+#backToTop a {
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  border-bottom: 3px solid var(--black-color);
+}
+
+#backToTop {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #DFA878;
+}
+
+footer li{
+  display: inline;
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+footer p{
+  font-size: 20px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  
+}
+
+#copy{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+#copy span {
+  font-weight: bold;
+}
+
+/*MEDIA QUERYS*/
+
+@media (max-width: 600px){
+  #nav-container{
+    width: 90vw;
+  }
+
+  #headline {
+    margin-top: -70px;
+  }
+
+  #about-us img,
+  #rooms img{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #about-us a,
+  #rooms a{
+    margin-bottom: 2rem;
+  }
+
+  #facilities h2,
+  #rooms h2,
+  #about-us h2{
+    width: 65%;
+  }
+
+  #facilities ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  footer .container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer li{
+    margin-right: 2.8rem;
+  }
+
 }

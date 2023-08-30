@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="#" type="image/x-icon">
   <!--Flat icons cdn -->
-  <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet"> <!--load all styles -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,9 +28,9 @@
 
 <body>
   <div id="summit-background">
-    <header>
+    <header id="header">
       <div class="container" id="nav-container">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
+        <nav class="navbar navbar-expand-lg fixed-top">
           <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
             <div class="navbar-nav">
               <a class="nav-item nav-link" id="home-menu" href="#" active>Home</span></a>
@@ -42,10 +42,6 @@
             </div>
           </div>
         </nav>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
       </div>
     </header>
     <main>
@@ -67,21 +63,115 @@
           <img src="img/aboutUs1.svg" id="aboutus1" alt="summit palace">
         </div>
         <div class="col-md-6">
-          <p>THE HOTEL C/E/G HOTEL.
+          <p> <span>SUMMIT HOTEL PALACE</span>
             A LUXURIOUS HOTEL THAT WILL GIVE YOU THE BEST EXPERIENCES.</p>
           <a class="btn btn-primary" href="#" role="button">View Rooms</a>
         </div>
+        <div id="about2">
+          <div class="col-md-6">
+            <img src="img/aboutUs2.svg" id="aboutus1" alt="summit palace">
+          </div>
         <div class="col-md-6">
           <p><span>WE OFFER 24H SERVICES</span>WE WORK 24H TO PROVIDE YOU A BETTER EXPERIENCE.</p>
           <a class="btn btn-primary" href="#" role="button">CONTACT US</a>
         </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--Rooms Section -->
+  <div id="rooms">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h2>Rooms</h2>
+        </div>
         <div class="col-md-6">
-          <img src="img/aboutUs2.svg" id="aboutus1" alt="summit palace">
+          <img src="img/masterRoom.svg" id="master" alt="summit palace">
+        </div>
+        <div class="col-md-6">
+          <p> <span>MASTER ROOM</span>
+            EXPERIENCE THE HEIGHT OF LUXURY, FEATURING A KING-SIZED BED, ELEGANT FURNISHINGS, AND BREATHTAKING CITY/SURROUNDING VIEWS.</p>
+            <p class="value"> $700,00 /NIGHT</p>
+          <a class="btn btn-primary" href="#" role="button">Reserve</a>
+        </div>
+        <div id="grand">
+        <div class="col-md-6">
+          <img src="img/grandRoom.svg" id="grand" alt="summit palace">
+        </div>
+        <div class="col-md-6">
+          <p><span>GRAND ROOM</span>
+            THOUGHTFULLY DESIGNED SPACE FEATURES A COZY QUEEN-SIZED BED WITH PREMIUM LINENS FOR A RESTFUL NIGHT'S SLEEP.</p>
+            <p class="value"> $500,00 /NIGHT</p>
+            <a class="btn btn-primary" href="#" role="button">Reserve</a>
+          </div>
+          </div>
+          <div class="col-md-6">
+            <img src="img/juniorRoom.svg" id="junior" alt="summit palace">
+          </div>
+          <div class="col-md-6">
+            <p> <span>JUNIOR ROOM</span>
+            OFFERS A COZY AMBIANCE WITH A SINGLE BED, MODERN AMENITIES, AND A PRIVATE BATHROOM, MAKING IT AN IDEAL CHOICE FOR SOLO TRAVELERS.</p>
+            <p class="value"> $350,00 /NIGHT</p>
+          <a class="btn btn-primary" href="#" role="button">Reserve</a>
         </div>
       </div>
     </div>
   </div>
-  </main>
+  <!-- Facilities -->
+  <div id="facilities">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h2>FACILITIES</h2>
+        </div>
+        <div class="col-md-12">
+          <ul>
+            <li><i class="ph ph-vault"></i></li>
+            <li><i class="ph ph-barbell"></i></li>
+            <li><i class="ph ph-monitor"></i></li>
+            <li><i class="ph ph-dice-three"></i></li>
+            <li><i class="ph ph-tennis-ball"></i></li>
+            <li><i class="ph ph-swimming-pool"></i></li>
+            <li><i class="ph ph-wifi-high"></i></li>
+            <li><i class="ph ph-fork-knife"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bottom Banner Section -->
+<div id="banner">
+    <div id="bannerText">
+        <h3>“WE WILL MAKE YOU FEEL BETTER THAN YOU ARE AT HOME!”</h3>
+    </div>
+</div>
+<!-- Back to top-->
+  <div id="backToTop">
+      <a href="#">Back to the top</a>
+  </div>
+</main>
+<footer>
+  <div id="contactArea">
+    <div class="container">
+      <div id="contacts">
+          <p><i class="ph ph-phone"></i> 0800-0000-0000</p>
+          <p><i class="ph ph-envelope"></i> email@email.com</p>
+      </div>
+      <div id="socialMedia">
+         <ul>
+          <li><i class="ph ph-whatsapp-logo"></i></li>
+          <li><i class="ph ph-instagram-logo"></i></li>
+          <li><i class="ph ph-facebook-logo"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="copy">
+    <p><span>SUMMIT PALACE HOTEL</span> &copy; 2023</p>
+  </div>
+</footer>
+<script src="script.js"></script>
 </body>
 
 </html>
