@@ -11,9 +11,15 @@ h2 {
 }
 
 #summit-background {
-  background-image: url(img/bannerSummit.jpg);
+  /* The image used */
+  background-image: url("img/bannerSummit.jpg");
+
+  /* Set a specific height */
   height: 95vh;
-  width: 100vw;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -86,7 +92,7 @@ header {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   font-weight: 700px;
-  margin-top: 300px;
+  margin-top: 15rem;
   text-align: center;
 }
 
@@ -115,11 +121,11 @@ header {
 }
 
 #about-us p {
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 10px;
   margin: 5rem auto 2rem auto;
-  max-width: 750px;
-  margin-top: 7rem;
+  max-width: 650px;
+  margin-top: 3rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -148,7 +154,14 @@ header {
 }
 
 #about-us img {
-  width: 49.5vw;
+  width: 49vw;
+}
+
+#about-us #about2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 /* Rooms */
@@ -176,9 +189,9 @@ header {
 #rooms p {
   font-size: 30px;
   letter-spacing: 10px;
-  margin: 5rem auto -2.5rem auto;
-  max-width: 750px;
-  margin-top: 7rem;
+  margin: auto;
+  max-width: 700px;
+  margin-top: 2.5rem;
   text-align: center;
 }
 
@@ -211,7 +224,14 @@ header {
 }
 
 #rooms img {
-  width: 49.5vw;
+  width: 49vw;
+}
+
+#rooms #grand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 
 /* Facilities */
@@ -228,7 +248,7 @@ header {
   text-align: center;
   margin-bottom: 3.5rem;
   text-transform: uppercase;
-  width: 22%;
+  width: 20%;
   font-size: 60px;
 }
 
@@ -244,6 +264,8 @@ header {
 #facilities ul{
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
   gap: 4rem;
 }
 
@@ -281,18 +303,17 @@ header {
   font-weight: 700;
   color: #fff;
   text-align: center;
-  margin-top: 375px;
 }
 
 #banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(/img/bannerFinal.jpg);
   background-size: cover;
-  height: 90vh;
-}
-
-.bannerText {
-  display: flex;
-  align-items: center;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 /* Back To Top */
@@ -303,48 +324,119 @@ header {
   font-size: 40px;
   font-family: "Playfair Display", serif;
   border-bottom: 3px solid var(--black-color);
-  
 }
 
 #backToTop {
-  text-align: center;
   height: 50vh;
-  padding-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Footer */
 
 footer {
   background-color: #DFA878;
-  position: static;
-  bottom: 0;
 }
 
 footer li{
-  display: inline;
   list-style: none;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-size: 50px;
   font-weight: bold;
+}
+
+footer ul{
+  padding: 0;
+  display: flex;
 }
 
 footer p{
   font-size: 20px;
 }
 
-footer .container {
+#contactArea {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding: 50px;
   
 }
 
 #copy{
   font-size: 20px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
 }
 
 #copy span {
   font-weight: bold;
+}
+
+/*MEDIA QUERYS*/
+
+@media (max-width: 600px){
+  
+  -background {
+  /* The image used */
+  background-image: url("img/bannerSummit.jpg");
+
+  /* Set a specific height */
+  height: 80vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 700px;
+}
+  
+  #nav-container{
+    width: 90vw;
+  }
+
+  #headline {
+    margin-top: -70px;
+  }
+
+  #about-us img,
+  #rooms img{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #about-us a,
+  #rooms a{
+    margin-bottom: 2rem;
+  }
+  
+  #about-us p,
+#rooms p{
+    font-size: 20px;
+    max-width: 380px;
+  }
+
+  #facilities h2,
+  #rooms h2,
+  #about-us h2{
+    width: 80%;
+  }
+
+  #facilities ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #banner h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+
+  #contactArea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
