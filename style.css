@@ -354,8 +354,7 @@ footer .container {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 600;
+  background-size: 700px;
 }
   
   #nav-container{
