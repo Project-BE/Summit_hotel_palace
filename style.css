@@ -344,6 +344,14 @@ footer .container {
 /*MEDIA QUERYS*/
 
 @media (max-width: 600px){
+  body{
+    overflow-x: hidden;
+  }
+  
+  #summit-background {
+    background-size: 500px;
+  }
+  
   #nav-container{
     width: 90vw;
   }
@@ -383,7 +391,7 @@ footer .container {
   }
 
   footer li{
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
 }
