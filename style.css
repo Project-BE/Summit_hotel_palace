@@ -370,6 +370,10 @@ footer .container {
   #rooms a{
     margin-bottom: 2rem;
   }
+  
+  body p{
+    font-size: 20px;
+  }
 
   #facilities h2,
   #rooms h2,
