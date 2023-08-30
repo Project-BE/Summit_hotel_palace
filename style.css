@@ -343,13 +343,6 @@ footer .container {
 /*MEDIA QUERYS*/
 
 @media (max-width: 600px){
-  body{
-    overflow-x: hidden;
-  }
-  
-  #summit-background {
-    background-size: 700px;
-  }
   
   #nav-container{
     width: 90vw;
@@ -373,6 +366,7 @@ footer .container {
   
   body p{
     font-size: 20px;
+    max-width: 360px;
   }
 
   #facilities h2,
