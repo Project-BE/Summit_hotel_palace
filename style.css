@@ -18,7 +18,7 @@ h2 {
 }
 
 :root {
-  --primary-color: #fffcfc;
+  --primary-color: #F5F3E1;
   --secondary-color: #fdc298;
   --white-color: #fff;
   --black-color: #000;
@@ -26,6 +26,7 @@ h2 {
 }
 
 /* Navbar */
+
 header,
 .navbar {
   padding: 1.5rem 3rem;
@@ -85,7 +86,7 @@ header {
   font-family: "Playfair Display", serif;
   font-size: 80px;
   font-weight: 700px;
-  margin-top: 230px;
+  margin-top: 300px;
   text-align: center;
 }
 
@@ -162,8 +163,7 @@ header {
 #rooms h2 {
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 3rem;
-  padding-top: 3rem;
+  margin-bottom: 100px;
   text-transform: uppercase;
   width: 22%;
   font-size: 60px;
@@ -212,4 +212,113 @@ header {
 
 #rooms img {
   width: 49.5vw;
+}
+
+/* Facilities */
+
+#facilities {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  padding-bottom: 6rem;
+  border-bottom: 2px solid var(--black-color);
+}
+
+#facilities h2 {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  text-transform: uppercase;
+  width: 22%;
+  font-size: 60px;
+}
+
+#facilities h2 {
+  border-bottom: 3px solid var(--black-color);
+}
+
+#facilities li{
+  list-style: none;
+  font-size: 80px;
+}
+
+#facilities ul{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* Bottom Banner */
+
+#banner h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-top: 375px;
+}
+
+#banner {
+  background-image: url(/img/bannerFinal.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+
+.bannerText {
+  display: flex;
+  align-items: center;
+}
+
+/* Back To Top */
+
+#backToTop a {
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  border-bottom: 3px solid var(--black-color);
+  
+}
+
+#backToTop {
+  text-align: center;
+  height: 50vh;
+  padding-top: 12rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #DFA878;
+  position: static;
+  bottom: 0;
+}
+
+footer li{
+  display: inline;
+  list-style: none;
+  margin-left: 2rem;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+footer p{
+  font-size: 20px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  
+}
+
+#copy{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#copy span {
+  font-weight: bold;
 }
