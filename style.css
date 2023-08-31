@@ -31,16 +31,9 @@ h2 {
   --stroke: #00000021;
 }
 
-/* Navbar */
-
-header,
-.navbar {
-  padding: 1.5rem 3rem;
-}
-
+/* Header */
 header {
-  display: flex;
-  justify-content: center;
+  padding: 2rem 3rem;
 }
 
 #nav-container {
@@ -53,7 +46,7 @@ header {
   color: #000;
   background: transparent;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   transition: 0.6s;
@@ -66,25 +59,27 @@ header {
   transition: 0.5s;
 }
 
-#nav-container {
-  padding-top: 0;
-  padding-bottom: 0;
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
-#navbar-links a {
+header nav a {
   text-transform: uppercase;
+  text-decoration: none;
   font-family: "Inter", sans-serif;
+  padding-bottom: 5px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-bottom: 3px solid var(--stroke);
   color: #fff;
 }
-
-#navbar-links a:hover {
+header nav a:hover {
   border-bottom: 3px solid var(--white-color);
   color: var(--primary-color);
   transition: 0.6s;
 }
+
 
 #headline h1 {
   color: var(--white-color);
@@ -393,8 +388,23 @@ footer p{
   background-size: 700px;
 }
   
-  #nav-container{
+
+  #nav-container {
+    display: flex;
+    padding-top: 1rem;
+    flex-wrap: wrap;
     width: 90vw;
+  }
+  #nav-container.sticky {
+    height: 15vh;
+  }
+
+  header nav {
+    padding: 30px;
+  }
+
+  header nav a {
+    font-size: 12px;
   }
 
   #headline {
