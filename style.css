@@ -1,7 +1,9 @@
+html, body{
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--primary-color);
-  overflow-x: hidden;
-  
 }
 
 p,
