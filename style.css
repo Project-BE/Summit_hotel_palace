@@ -258,6 +258,11 @@ header nav a:hover {
   font-size: 80px;
 }
 
+#facilities li:hover{
+  font-size: 90px;
+  transition: 0.6s;
+}
+
 #facilities ul{
   display: flex;
   justify-content: center;
