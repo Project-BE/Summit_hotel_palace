@@ -3,4 +3,4 @@ Repository for the project
 
 ## 💻 Projeto
 
-- [Acesse o projeto finalizado, online](https://project-be.github.io/frontEnd/)
+- [Acesse a versao atual do projeto, online](https://project-be.github.io/frontEnd/)
