@@ -1,6 +1,6 @@
-# frontEnd
+# frontEnd - First Sprint
 Repository for the project
 
-## 💻 Projeto
+## 💻 Project
 
-- [Acesse a versão atual do projeto, online](https://project-be.github.io/frontEnd_FirstSprint/)
+- [Acess the actual version, online](https://project-be.github.io/frontEnd_FirstSprint/)
