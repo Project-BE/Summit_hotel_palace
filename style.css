@@ -343,7 +343,6 @@ footer {
 
 footer li{
   list-style: none;
-  margin-left: 1rem;
   font-size: 50px;
   font-weight: bold;
 }
@@ -351,6 +350,7 @@ footer li{
 footer ul{
   padding: 0;
   display: flex;
+  gap: 2rem;
 }
 
 footer p{
@@ -415,7 +415,7 @@ footer p{
   }
 
   #headline {
-    margin-top: -70px;
+    margin-top: -150px;
   }
 
   #about-us img,
