@@ -1,0 +1,14 @@
+{
+  "name": "summit_hotel_palace",
+  "version": "1.0.0",
+  "description": "Repository for the project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
