@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const uri = 'mongodb+srv://summithotelpalace11:RdExEDwKCxtvaUwt@reservation.m5hbzkg.mongodb.net/?retryWrites=true&w=majority'
+const uri = ''
 
 const databaseConnection = async () => {
     if(!global.mongoose){
