@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./components/layout/Header/Header"
+import About_left from "./components/layout/About/About_left";
+import About_right from "./components/layout/About/About_right";
+import Room from "./components/Service/Room";
+
+import GrandImg from './assets/grandRoom.svg'
+
+import styles from "./App.module.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className={styles.header}>
+        <Header />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className={styles.main}>
+        <div className={styles.about_us}>
+          <h2>About us</h2>
+          <About_left />
+          <About_right />
+        </div>
+        <div className={styles.rooms}>
+        </div>
+        <Room 
+          title={'MASTER ROOM'}
+          description={'EXPERIENCE THE HEIGHNESS OF LUXURY, FEATURING A KING-SIZED BED, ELEGANT FURNISHINGS, AND BREATHTAKING CITY/SURROUNDING VIEWS.'}
+          value={'$ 700,00'}
+          img={GrandImg}
+          slide={'right'}
+        />
+        <Room
+          title={'GRAND ROOM'}
+          description={"ENTIRELY DESIGNED SPACE THAT FEATURES A COZY QUEEN-SIZED BED WITH PREMIUM DESIGNS FOR A RESTFUL NIGHT'S SLEEP."}
+          value={'$500,00'}
+          slide={'left'}
+        />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
