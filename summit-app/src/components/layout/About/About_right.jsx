@@ -8,7 +8,7 @@ export default function About_right() {
       <img src={About2} alt="About us image" />
       <div className={styles.about_caption}>
         <Fade>
-          <Slide>
+          <Slide triggerOnce>
             <p>
               <span>WE OFFER 24H SERVICES</span> WE WORK 24H TO PROVIDE YOU A
               UNIQUE EXPERIENCE.

@@ -2,17 +2,11 @@
 
 .rooms {
     display: flex;
-    margin-bottom: 5rem;
-    padding-bottom: 6rem;
-    border-bottom: 2px solid var(--black-color);
 }
 
 .rooms_reverse {
     display: flex;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    padding-bottom: 6rem;
-    border-bottom: 2px solid var(--black-color);
+    flex-direction: row-reverse;
 }
 
 .rooms_content {
@@ -64,7 +58,11 @@
 }
 
 .rooms img {
-    width: 49vw;
+    width: 49.5vw;
+}
+
+.rooms_reverse img {
+    width: 49.5vw;
 }
 
 @media (max-width: 800px) {
@@ -73,7 +71,33 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 1.5rem;
     }
+
+    .rooms_reverse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+
+    .rooms_reverse img{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+    
+      .rooms_reverse a{
+        display: block;
+        margin-top: 1rem;
+      }
+      .rooms_reverse p{
+        margin: 0 auto;
+        font-size: 16px;
+        max-width: 350px;
+        margin-bottom: 1rem;
+      }
 
     .rooms img{
     width: 100%;
