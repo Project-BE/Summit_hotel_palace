@@ -8,6 +8,15 @@ import GrandImg from './assets/grandRoom.svg'
 import MasterImg from './assets/masterRoom.svg'
 import JuniorImg from './assets/juniorRoom.svg'
 
+import { PiSwimmingPool ,
+  PiTennisBallBold,
+  PiWifiHigh,
+  PiForkKnifeBold,
+  PiDiceThree,
+  PiVault,
+  PiBarbell,
+  FiMonitor, } from "react-icons/pi";
+
 import styles from "./App.module.css";
 
 function App() {
