@@ -1,0 +1,124 @@
+/* Rooms */
+
+.rooms {
+    display: flex;
+}
+
+.rooms_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rooms_content {
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.rooms_content p {
+    font-size: 30px;
+    letter-spacing: 10px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 650px;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.rooms_content a {
+    color: var(--black-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    width: 327px;
+    padding: .8rem;
+    
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+}
+
+.rooms_content a:hover {
+    background-color: #fbb582;
+}
+
+.rooms_content span {
+    display: block;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.rooms img {
+    width: 49.5vw;
+}
+
+.rooms_reverse img {
+    width: 49.5vw;
+}
+
+@media (max-width: 800px) {
+    .rooms {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+
+    .rooms_reverse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+    }
+
+    .rooms_reverse img{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+    
+      .rooms_reverse a{
+        display: block;
+        margin-top: 1rem;
+      }
+      .rooms_reverse p{
+        margin: 0 auto;
+        font-size: 16px;
+        max-width: 350px;
+        margin-bottom: 1rem;
+      }
+
+    .rooms img{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .rooms a{
+    display: block;
+    margin-top: 1rem;
+  }
+  .rooms p{
+    margin: 0 auto;
+    font-size: 16px;
+    max-width: 350px;
+    margin-bottom: 1rem;
+  }
+  }
+
+  @media (min-width: 1000px){
+    .rooms a{
+        margin-top: 2.5rem;
+    }
+  }
