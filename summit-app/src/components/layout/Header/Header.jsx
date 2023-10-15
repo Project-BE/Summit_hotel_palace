@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 import styles from "./Header.module.css";
 
@@ -32,9 +33,12 @@ export default function Header() {
                 scrolled ? styles.sticky : ""
               }`}
             >
-              <a className="nav-item" id="home-menu" href="#">
-                Home
-              </a>
+              <Link to="/">
+                  Home
+                {/* <a className="nav-item" id="home-menu" href="#">
+                </a> */}
+              </Link>
+
               <a className="nav-item" id="about-menu" href="#about-us">
                 About Us
               </a>
@@ -48,9 +52,11 @@ export default function Header() {
               >
                 Facilities
               </a>
-              <a className="nav-item" id="reserve-menu" href="#rooms">
+              <Link to="/reservation">
                 Reserve
-              </a>
+              </Link>
+              {/* <a className="nav-item" id="reserve-menu" href="#rooms">
+              </a> */}
               <a className="nav-item" id="contact-menu" href="#socialMedia">
                 Contact us
               </a>
