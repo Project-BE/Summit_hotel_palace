@@ -1,0 +1,53 @@
+/* Facilities */
+
+.facilities {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-bottom: 6rem;
+    border-bottom: 2px solid var(--black-color);
+}
+
+.facilities li {
+    list-style: none;
+    font-size: 80px;
+}
+
+.facilities li:hover {
+    scale: 1.2;
+    transition: 0.3s;
+}
+
+.facilities ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 4rem;
+}
+
+.hovertext {
+    position: relative;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    width: 150px;
+    background-color: #00000070;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+
+
+    position: absolute;
+    z-index: 1;
+    left: -40%;
+    top: 90%;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}

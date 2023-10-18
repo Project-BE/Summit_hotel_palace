@@ -14,9 +14,9 @@ export default function Room_Reverse({title, description, value, img, slide}) {
             {description}
           </p>
             <p ><span>{value} /NIGHT</span></p>
-          <Button>Reserve</Button>
          </Fade>
           </Slide>
+          <Button>Reserve</Button>
          </div>
     </div>
   )
