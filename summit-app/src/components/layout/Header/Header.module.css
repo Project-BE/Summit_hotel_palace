@@ -84,6 +84,7 @@
       flex-wrap: wrap;
       height: 15vh;
       width: 90vw;
+      margin-bottom: 2rem;
     }
 
     .sticky {
@@ -100,8 +101,7 @@
   
     .header h1 {
       font-size: 3.5rem;
-      max-width: 350px;
-      margin-top: 3rem;
+      margin-top: 1rem;
       position: absolute;
       z-index: 1;
       top: 50%;
