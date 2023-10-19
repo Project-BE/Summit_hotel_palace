@@ -100,7 +100,8 @@
   
     .header h1 {
       font-size: 3.5rem;
-      margin-top: 2rem;
+      max-width: 350px;
+      margin-top: 3rem;
       position: absolute;
       z-index: 1;
       top: 50%;
