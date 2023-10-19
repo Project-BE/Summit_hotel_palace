@@ -71,6 +71,7 @@
 @media (max-width: 600px){
   
     .header {
+        position: relative;
         height: 70vh;
         background-size: cover;
   }
@@ -99,7 +100,11 @@
   
     .header h1 {
       font-size: 3.5rem;
-      margin-top: 4rem;
+      margin-top: 2rem;
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      transform: translateY(-50%);
     }
 
 }
