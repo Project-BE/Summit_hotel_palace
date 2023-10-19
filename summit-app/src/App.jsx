@@ -2,7 +2,7 @@ import Header from "./components/layout/Header/Header"
 import About_left from "./components/layout/About/About_left";
 import About_right from "./components/layout/About/About_right";
 import Room from "./components/Service/Room";
-import Room_Reverse from "./components/Service/Room_reverse";
+import Room_Reverse from "./components/Service/Room_Reverse"
 import Facilities from "./components/Service/Facilities/Facilities";
 
 import GrandImg from './assets/grandRoom.svg'
