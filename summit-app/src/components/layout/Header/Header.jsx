@@ -44,14 +44,13 @@ export default function Header() {
               <a
                 className="nav-item"
                 id="facilities-menu"
-                href="#facilities-anchor"
               >
                 Facilities
               </a>
-              <a className="nav-item" id="reserve-menu" href="#rooms">
+              <a className="nav-item" id="reserve-menu">
                 Reserve
               </a>
-              <a className="nav-item" id="contact-menu" href="#socialMedia">
+              <a className="nav-item" id="contact-menu">
                 Contact us
               </a>
             </div>
