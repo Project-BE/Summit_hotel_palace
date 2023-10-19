@@ -16,6 +16,7 @@ export const Button = styled.a`
     font-weight: 500;
     cursor: pointer;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+    transition: .5s;
 
     @media (min-width: 1000) {
         margin-bottom: 1rem;

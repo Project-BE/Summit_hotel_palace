@@ -92,10 +92,15 @@
         display: block;
         margin-top: 1rem;
       }
+
+      .rooms_reverse span {
+        font-size: 22px;
+      }
+      
       .rooms_reverse p{
         margin: 0 auto;
         font-size: 16px;
-        max-width: 350px;
+        max-width: 340px;
         margin-bottom: 1rem;
       }
 
@@ -109,10 +114,15 @@
     display: block;
     margin-top: 1rem;
   }
+
+  .rooms span {
+    font-size: 22px;
+  }
+
   .rooms p{
     margin: 0 auto;
     font-size: 16px;
-    max-width: 350px;
+    max-width: 340px;
     margin-bottom: 1rem;
   }
   }

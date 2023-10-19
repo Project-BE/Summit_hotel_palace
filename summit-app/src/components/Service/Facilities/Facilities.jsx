@@ -13,28 +13,28 @@ export default function Facilities() {
   return (
     <div className={styles.facilities}>
          <ul>
-            <span className="hovertext" data-hover="SAFE LOCKER">
+            <span className={styles.hovertext} data-hover="SAFE LOCKER">
               <li><PiVault /></li>
             </span>
-            <span className="hovertext" data-hover="GYM">
+            <span className={styles.hovertext} data-hover="GYM">
               <li> <PiBarbell /> </li>
             </span>
-            <span className="hovertext" data-hover="TELEVISION">  
-              <li> <PiMonitor /> </li>
+            <span className={styles.hovertext} data-hover="TELEVISION">  
+              <li> <PiMonitor /></li>
             </span>
-            <span className="hovertext" data-hover="CASINO"> 
+            <span className={styles.hovertext} data-hover="CASINO"> 
               <li> <PiDiceThree/> </li>
             </span>
-            <span className="hovertext" data-hover="TENNIS">
+            <span className={styles.hovertext} data-hover="TENNIS">
               <li> <PiTennisBall/> </li>
             </span>
-            <span className="hovertext" data-hover="POOL">
+            <span className={styles.hovertext} data-hover="POOL">
             <li> <PiSwimmingPool /> </li>
             </span>
-            <span className="hovertext" data-hover="WIFI">
+            <span className={styles.hovertext} data-hover="WIFI">
             <li> <PiWifiHigh /> </li>
             </span>
-            <span className="hovertext" data-hover="RESTAURANT">
+            <span className={styles.hovertext} data-hover="RESTAURANT">
             <li> <PiForkKnife /> </li>
             </span>
           </ul>        
