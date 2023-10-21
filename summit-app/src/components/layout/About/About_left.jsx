@@ -12,7 +12,7 @@ function About_left() {
             <p>
               <span>SUMMIT HOTEL PALACE</span> A LUXURIOUS HOTEL THAT GONNA GIVE
               YOU THE BEST EXPERIENCE.
-              <a href="#rooms">View Rooms</a>
+              <a href="/reservas">View Rooms</a>
             </p>
           </Slide>
         </Fade>

@@ -53,7 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/bannerFinal.jpg);
+    background-image: url(../../assets/bannerFinal.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -81,9 +81,15 @@
     font-size: 40px;
     font-family: "Playfair Display", serif;
     border-bottom: 3px solid var(--black-color);
+    cursor: pointer;
   }
-  
 
+  .backTop a:hover {
+    scale: 1.1;
+    color: #000;
+    border-color: #000;
+    transition: .5s;
+  }
 
 @media (max-width: 800px) {
     .header {

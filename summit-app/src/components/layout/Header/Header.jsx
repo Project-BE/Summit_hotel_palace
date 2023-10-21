@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Fade } from "react-awesome-reveal";
+import { Link } from 'react-scroll'
 import styles from "./Header.module.css";
 
 export default function Header() {
@@ -32,27 +33,12 @@ export default function Header() {
                 scrolled ? styles.sticky : ""
               }`}
             >
-              <a className="nav-item" id="home-menu" href="#">
-                Home
-              </a>
-              <a className="nav-item" id="about-menu" href="#about-us">
-                About Us
-              </a>
-              <a className="nav-item" id="rooms-menu" href="#rooms">
-                Rooms
-              </a>
-              <a
-                className="nav-item"
-                id="facilities-menu"
-              >
-                Facilities
-              </a>
-              <a className="nav-item" id="reserve-menu">
-                Reserve
-              </a>
-              <a className="nav-item" id="contact-menu">
-                Contact us
-              </a>
+              <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}> Home </Link>
+              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-150} duration={600}> About us </Link>
+              <Link activeClass="active" to="room" spy={true} smooth={true} offset={-120} duration={600}> Rooms </Link>
+              <Link activeClass="active" to="facilities" spy={true} smooth={true} offset={-200} duration={600}> Facilities </Link>
+              <a href="/reservas"> Reserve </a>
+              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> Contact us </Link>
             </div>
           </nav>
         </Fade>

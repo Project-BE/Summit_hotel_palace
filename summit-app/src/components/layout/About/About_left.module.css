@@ -34,6 +34,7 @@
     font-size: 30px;
     font-weight: 500;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.459);
+    cursor: pointer;
   }
   
   .about a:hover {

@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
         </div>
         <div className={styles.copy}>
-            <p><span>SUMMIT PALACE HOTEL</span> &copy; 2023. Todos os direitos reservados, s que não :D </p>
+            <p><span>SUMMIT PALACE HOTEL</span> &copy; 2023. All rights reserved </p>
         </div>
     </div>
   )

@@ -21,7 +21,7 @@
   .footer p{
     font-size: 20px;
     letter-spacing: 5px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
   }
   
   .contactArea {
@@ -39,6 +39,7 @@
   .contact p{
     display: flex;
     align-items: center;
+    gap: 1rem;
     padding: 7px;
     margin: 0;
   }
