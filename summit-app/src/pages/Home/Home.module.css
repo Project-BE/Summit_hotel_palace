@@ -14,6 +14,7 @@
 
 .main {
     background-color: #f5f3e1;
+    overflow-x: hidden;
 }
 
 .main p,
