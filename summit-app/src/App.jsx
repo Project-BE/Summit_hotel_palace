@@ -4,6 +4,7 @@ import About_right from "./components/layout/About/About_right";
 import Room from "./components/Service/Room";
 import Room_Reverse from "./components/Service/Room_Reverse"
 import Facilities from "./components/Service/Facilities/Facilities";
+import Footer from './components/layout/Footer/Footer'
 
 import GrandImg from './assets/grandRoom.svg'
 import MasterImg from './assets/masterRoom.svg'
@@ -51,6 +52,13 @@ function App() {
             <h2>Facilities</h2>
             <Facilities />
           </div>
+          <div className={styles.background_wrapper}>
+              <h3>“WE GONNA MAKE YOU FEEL BETTER THAN IN YOUR HOME!”</h3> 
+          </div>
+          <div className={styles.backTop}>
+            <a href="#">Back to the top</a>
+          </div>
+          <Footer />
       </div>
     </>
   );

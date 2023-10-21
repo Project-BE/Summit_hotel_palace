@@ -49,6 +49,41 @@
     border-bottom: 2px solid #000;
 }
 
+.background_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/bannerFinal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.background_wrapper h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+
+  .backTop {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .backTop a {
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    border-bottom: 3px solid var(--black-color);
+  }
+  
+
 
 @media (max-width: 800px) {
     .header {
@@ -59,4 +94,12 @@
         width: 70%;
         font-size: 50px;
     }
+
+    .background_wrapper h3 {
+        font-family: "Playfair Display", serif;
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+      }
 }
