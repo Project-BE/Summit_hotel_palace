@@ -7,7 +7,7 @@ import styles from './Reserves.module.css'
 
 export default function Reserves() {
   return (
-    <div className='reserves'>
+    <div id='/' className='reserves'>
       <Header />
       <div className={styles.main_content}>
         <p>conteudo pag reservas</p>

@@ -18,7 +18,7 @@ import styles from "./Home.module.css";
 function App() {
   return (
     <>
-      <div id="home" className={styles.header}>
+      <div id="/" className={styles.header}>
         <Header />
       </div>
         <div className={styles.main}>
