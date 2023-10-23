@@ -10,7 +10,6 @@
 
 .facilities li {
     list-style: none;
-    font-size: 80px;
 }
 
 .facilities li:hover {
@@ -19,6 +18,7 @@
 }
 
 .facilities svg {
+    font-size: 80px;
     color: #212529;
 }
 
@@ -38,7 +38,7 @@
 .hovertext:before {
     content: attr(data-hover);
     visibility: hidden;
-    width: 130px;
+    width: 150px;
     background-color: #00000070;
     color: #fff;
     text-align: center;

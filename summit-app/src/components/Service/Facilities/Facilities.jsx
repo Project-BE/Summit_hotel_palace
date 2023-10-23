@@ -12,32 +12,48 @@ import { PiSwimmingPool ,
 export default function Facilities() {
   return (
     <div className={styles.facilities}>
-         <ul>
+        <ul>
+          <li>
             <span className={styles.hovertext} data-hover="SAFE LOCKER">
-              <li><PiVault /></li>
+            <PiVault />
             </span>
+          </li>
+          <li>
             <span className={styles.hovertext} data-hover="GYM">
-              <li> <PiBarbell /> </li>
+            <PiBarbell /> 
             </span>
+          </li>
+          <li>
             <span className={styles.hovertext} data-hover="TELEVISION">  
-              <li> <PiMonitor /></li>
-            </span>
-            <span className={styles.hovertext} data-hover="CASINO"> 
-              <li> <PiDiceThree/> </li>
-            </span>
-            <span className={styles.hovertext} data-hover="TENNIS">
-              <li> <PiTennisBall/> </li>
-            </span>
-            <span className={styles.hovertext} data-hover="POOL">
-            <li> <PiSwimmingPool /> </li>
-            </span>
-            <span className={styles.hovertext} data-hover="WIFI">
-            <li> <PiWifiHigh /> </li>
-            </span>
-            <span className={styles.hovertext} data-hover="RESTAURANT">
-            <li> <PiForkKnife /> </li>
-            </span>
-          </ul>        
+            <PiMonitor />
+          </span>
+        </li>
+        <li> 
+          <span className={styles.hovertext} data-hover="CASINO"> 
+            <PiDiceThree/> 
+          </span>
+        </li>
+        <li>
+          <  span className={styles.hovertext} data-hover="TENNIS">
+              <PiTennisBall/>
+          </span>
+        </li>
+        <li> 
+          <span className={styles.hovertext} data-hover="POOL">
+          <PiSwimmingPool /> 
+          </span>
+        </li>
+        <li> 
+          <span className={styles.hovertext} data-hover="WIFI">
+          <PiWifiHigh /> 
+          </span>
+        </li>
+        <li> 
+          <span className={styles.hovertext} data-hover="RESTAURANT">
+          <PiForkKnife />
+          </span>
+        </li>
+      </ul>        
     </div>
   )
 }
