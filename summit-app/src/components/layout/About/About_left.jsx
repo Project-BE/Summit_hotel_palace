@@ -1,5 +1,7 @@
 import About1 from "../../../assets/aboutUs1.svg";
 import { Slide, Fade } from "react-awesome-reveal";
+
+import { Button } from '../Button/Button.style'
 import styles from "./About_left.module.css";
 
 function About_left() {
@@ -9,11 +11,11 @@ function About_left() {
       <div className={styles.about_caption}>
         <Fade>
           <Slide triggerOnce direction="right">
-            <p>
-              <span>SUMMIT HOTEL PALACE</span> A LUXURIOUS HOTEL THAT GONNA GIVE
-              YOU THE BEST EXPERIENCE.
-              <a href="/reservas">View Rooms</a>
-            </p>
+              <p>
+                <span>SUMMIT HOTEL PALACE</span> A LUXURIOUS HOTEL THAT GONNA GIVE
+                YOU THE BEST EXPERIENCE.
+                <Button href="/reservas" > View rooms </Button> 
+              </p>
           </Slide>
         </Fade>
       </div>

@@ -1,29 +1,29 @@
 .nav_container {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    display: flex;
-    flex-wrap: wrap;
-    width: 65%;
-    height: 80px;
-    color: #000;
-    background: transparent;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    transition: 0.6s;
-    min-width: 380px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  height: 80px;
+  color: #000;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: 0.6s;
+  min-width: 380px;
 }
 
 .sticky {
-    color: #fff;
-    background: #0000007d;
-    transition: 0.5s;
-  }
-  
-  .header {
-     /* The image used */
+  color: #fff;
+  background: #0000007d;
+  transition: 0.5s;
+}
+
+.header {
+  /* The image used */
   background-image: url("../../../assets/bannerSummit.jpg");
 
   /* Set a specific height */
@@ -36,77 +36,78 @@
 }
 
 .header nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .header nav a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: "Inter", sans-serif;
-    padding-bottom: 10px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-bottom: 3px solid #00000025;
-    cursor: pointer;
-    color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-bottom: 3px solid #00000025;
+  text-shadow: 1px 1px 10px #000;
+  cursor: pointer;
+  color: #fff;
 }
 
 .header nav a:hover {
-    border-bottom: 3px solid #fff;
-    transition: 0.6s;
+  border-bottom: 3px solid #fff;
+  transition: 0.6s;
 }
 
 
 .header h1 {
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Playfair Display", serif;
-    font-size: 80px;
-    font-weight: 400;
-    margin-top: 18rem;
-    text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  font-weight: 400;
+  margin-top: 18rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px #000;
 }
 
-@media (max-width: 600px){
-  
-    .header {
-        position: relative;
-        height: 70vh;
-        background-size: cover;
+@media (max-width: 600px) {
+
+  .header {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
   }
-    
-  
-    .nav_container {
-      display: flex;
-      row-gap: .4rem;
-      padding-top: 1rem;
-      flex-wrap: wrap;
-      height: 15vh;
-      width: 90vw;
-      margin-bottom: 2rem;
-    }
 
-    .sticky {
-      padding-top: .5rem;
-    }
-  
-    .header nav {
-      padding: 30px;
-    }
-  
-    .header nav a {
-      font-size: 12px;
-    }
-  
-    .header h1 {
-      font-size: 3.5rem;
-      margin-top: 1rem;
-      position: absolute;
-      z-index: 1;
-      top: 50%;
-      transform: translateY(-50%);
-    }
 
+  .nav_container {
+    display: flex;
+    row-gap: .4rem;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    height: 15vh;
+    width: 90vw;
+    margin-bottom: 2rem;
+  }
+
+  .sticky {
+    padding-top: .5rem;
+  }
+
+  .header nav {
+    padding: 30px;
+  }
+
+  .header nav a {
+    font-size: 12px;
+  }
+
+  .header h1 {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
