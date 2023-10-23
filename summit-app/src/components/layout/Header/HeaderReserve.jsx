@@ -34,10 +34,10 @@ export default function HeaderReserve() {
                 scrolled ? styles.sticky : ""
               }`}
             >
-              <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}> Home </Link>
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-150} duration={600}> About us </Link>
-              <Link activeClass="active" to="room" spy={true} smooth={true} offset={-120} duration={600}> Rooms </Link>
-              <Link activeClass="active" to="facilities" spy={true} smooth={true} offset={-200} duration={600}> Facilities </Link>
+              <a href="/"> Home </a>
+              <a href="/"> About us </a>
+              <a href="/"> Rooms </a>
+              <a href="/"> Facilities </a>
               <a href="/reservas"> Reserve </a>
               <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> Contact us </Link>
             </div>

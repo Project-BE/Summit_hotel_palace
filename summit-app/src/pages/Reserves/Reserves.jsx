@@ -7,15 +7,17 @@ import styles from './Reserves.module.css'
 
 export default function Reserves() {
   return (
-    <div id='/' className='reserves'>
+    <div id='/' className={styles.reserves}>
       <Header />
       <div className={styles.main_content}>
         <p>conteudo pag reservas</p>
       </div>
-        <div className={styles.backTop}>
-          <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}>  Back to Top </Link>
-          </div>
-      <Footer />
+      <div className={styles.backTop}>
+        <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}>  Back to Top </Link>
+      </div>
+      <div id='contact'>
+        <Footer />
+      </div>
     </div>
   )
 }
