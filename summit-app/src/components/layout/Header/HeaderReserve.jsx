@@ -27,7 +27,6 @@ export default function HeaderReserve() {
   return (
     <>
       <div className={styles.header}>
-        <Fade triggerOnce>
           <nav>
             <div
               className={`${styles.nav_container} ${
@@ -42,7 +41,6 @@ export default function HeaderReserve() {
               <Link href="/" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}>  Contact us </Link>
             </div>
           </nav>
-        </Fade>
         <Fade>
           <h1>Summit Hotel Palace</h1>
         </Fade>
