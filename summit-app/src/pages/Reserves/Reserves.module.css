@@ -3,6 +3,30 @@
   background-color: #f5f3e1;
 }
 
+.reserves p,
+.reserves a,
+.reserves h2 {
+  font-family: "Carme", sans-serif;
+  color: #212529;
+}
+
+.reserves h2, .reserves a{
+  text-shadow: 1px 1px 5px #0000002f;
+}
+
+.reserves h2{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    width: 22%;
+    font-size: 60px;
+    color: #212529;
+    border-bottom: 3px solid #212529;
+}
+
 .main_content {
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
@@ -31,3 +55,12 @@
     border-color: #000;
     transition: .5s;
   }
+
+
+  @media (max-width: 800px) {
+    .reserves h2{
+        max-width: 280px;
+        width: 70%;
+        font-size: 50px;
+    }
+}

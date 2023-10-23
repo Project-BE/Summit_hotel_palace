@@ -103,11 +103,13 @@
   }
 
   .header h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-top: 1rem;
+    padding: 0 2rem;
     position: absolute;
+    max-width: 600px;
     z-index: 1;
-    top: 50%;
+    top: 56%;
     transform: translateY(-50%);
   }
 }

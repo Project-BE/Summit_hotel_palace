@@ -10,6 +10,7 @@ export default function Reserves() {
     <div id='/' className={styles.reserves}>
       <Header />
       <div className={styles.main_content}>
+        <h2>Reserves</h2>
         <p>conteudo pag reservas</p>
       </div>
       <div className={styles.backTop}>

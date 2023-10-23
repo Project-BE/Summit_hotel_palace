@@ -59,10 +59,12 @@
 
 .rooms img {
     width: 49.5vw;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
 }
 
 .rooms_reverse img {
     width: 49.5vw;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.459);
 }
 
 @media (max-width: 800px) {
