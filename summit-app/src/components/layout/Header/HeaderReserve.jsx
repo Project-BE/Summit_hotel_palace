@@ -39,7 +39,7 @@ export default function HeaderReserve() {
               <a href="/"> Rooms </a>
               <a href="/"> Facilities </a>
               <a href="/reservas"> Reserve </a>
-              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> Contact us </Link>
+              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> <a href="contactUs"> Contact us </a> </Link>
             </div>
           </nav>
         </Fade>
