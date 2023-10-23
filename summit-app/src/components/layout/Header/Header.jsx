@@ -33,12 +33,12 @@ export default function Header() {
                 scrolled ? styles.sticky : ""
               }`}
             >
-              <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}> <a href="home"> Home </a> </Link>
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={-150} duration={600}> <a href="about"> About us </a> </Link>
-              <Link activeClass="active" to="room" spy={true} smooth={true} offset={-120} duration={600}> <a href="rooms">Rooms </a> </Link>
-              <Link activeClass="active" to="facilities" spy={true} smooth={true} offset={-200} duration={600}> <a href="facilities">Facilities </a> </Link>
+              <Link href="/" activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}> Home </Link>
+              <Link href="/" activeClass="active" to="about" spy={true} smooth={true} offset={-150} duration={600}> About us </Link>
+              <Link href="/"  activeClass="active" to="room" spy={true} smooth={true} offset={-120} duration={600}> Rooms </Link>
+              <Link href="/"  activeClass="active" to="facilities" spy={true} smooth={true} offset={-200} duration={600}> Facilities </Link>
               <a href="/reservas"> Reserve </a>
-              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> <a href="contactUs"> Contact us </a> </Link>
+              <Link href="/"  activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> Contact us </Link>
             </div>
           </nav>
         </Fade>
