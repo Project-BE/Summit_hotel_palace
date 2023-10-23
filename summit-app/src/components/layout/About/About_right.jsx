@@ -14,7 +14,7 @@ export default function About_right() {
             <p>
               <span>WE OFFER 24H SERVICES</span> WE WORK 24H TO PROVIDE YOU A
               UNIQUE EXPERIENCE.
-              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> Contact us </Link>
+              <Link href="/" activeClass="active" to="contact" spy={true} smooth={true} offset={0} duration={600}> Contact us </Link>
             </p>
           </Slide>
         </Fade>

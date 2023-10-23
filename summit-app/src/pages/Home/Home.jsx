@@ -61,7 +61,7 @@ function App() {
                 </Fade>
             </div>
             <div className={styles.backTop}>
-            <Link activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}>  Back to Top </Link>
+            <Link href="/" activeClass="active" to="/" spy={true} smooth={true} offset={50} duration={500}>  Back to Top </Link>
             </div>
             <div id="contact">
               <Footer />
