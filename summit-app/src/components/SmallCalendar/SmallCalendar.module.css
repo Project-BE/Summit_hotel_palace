@@ -1,0 +1,28 @@
+.calendar {
+    color: #000;
+    padding: 10px;
+}
+
+.calendar span, .calendar h4, .calendar div {
+    font-family: "Carme", sans-serif;;
+}
+
+
+.calendar span {
+    color: #444;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.calendar button {
+    font-family: "Carme", sans-serif;
+    color: #000;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.calendar button > span {
+    border: none;
+}

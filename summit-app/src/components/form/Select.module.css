@@ -1,0 +1,23 @@
+.select select{
+    font-family: "Carme", sans-serif;
+    color: #212529;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    border: none;
+    outline: 0;
+}
+.select .box {
+    margin: 20px;
+    background-color: #fff;    
+    padding: 10px;
+    max-width: 290px
+}
+
+.select option{
+    font-size: 16px;
+}
+
+.select label {
+    display: none;
+}
