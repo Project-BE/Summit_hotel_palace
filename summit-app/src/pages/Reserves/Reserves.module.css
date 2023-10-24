@@ -1,5 +1,6 @@
 .reserves {
   background-color: #f5f3e1;
+  overflow-x: hidden;
 }
 
 .reserves p,
@@ -86,4 +87,20 @@
     width: 70%;
     font-size: 50px;
   }
+
+  .calendar {
+    margin-top: 1rem;
+    padding-right: 0;
+    border: none;
+  }
+
+  .data_reservation {
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+
+  .main_content a {
+    margin-top: 2rem;
+  }
+
 }

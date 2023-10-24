@@ -15,7 +15,7 @@ const SmallCalendar = () => {
         // mask='____/__/__'
         className={styles.calendar}
         variant='static'
-        orientation='landscape'
+        orientation='portrait'
         value={value}
         disablePast
         onChange={(newValue) => setValue(newValue)}

@@ -28,7 +28,7 @@ export default function Reserves() {
             <SmallCalendar />
           </div>
         </div>
-        <Button> Proceed </Button>
+        <Button type='submit'> Proceed </Button>
         </form>
       </div>
       <div className={styles.backTop}>
