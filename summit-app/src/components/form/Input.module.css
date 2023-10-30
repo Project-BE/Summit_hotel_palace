@@ -3,7 +3,7 @@
     color: #212529;
     font-size: 25px;
     background-color: #fff;
-    max-width: 270px;
+    width: 270px;
     text-transform: uppercase;
 
     border: none;
@@ -13,7 +13,7 @@
     margin: 20px;
     background-color: #fff;    
     padding: 10px;
-    max-width: 300px
+    width: 290px
 }
 
 .select option{

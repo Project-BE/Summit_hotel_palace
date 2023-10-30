@@ -3,11 +3,12 @@ import Footer from '../../components/layout/Footer/Footer'
 import SmallCalendar from '../../components/SmallCalendar/SmallCalendar'
 import Select from '../../components/form/Select'
 
-import { Button } from '../../components/layout/Button/Button.style'
+import { SubmitButton } from '../../components/layout/Button/Button.style'
 
 import { Link } from 'react-scroll'
 
 import styles from './Reserves.module.css'
+import Input from '../../components/form/Input'
 
 export default function Reserves() {
   return (
@@ -17,18 +18,18 @@ export default function Reserves() {
         <h2>Reserves</h2>
         
         <form className={styles.form} action="reservation">
-        <Select name='select a room'  value={'select'} />
+        <Select name='select a room' />
         <div className={styles.data_reservation}>
           <div>
-            <Select name='rooms'  value={'rooms'} />
-            <Select name='adults'  value={'adults'} />
-            <Select name='children'  value={'children'} />
+            <Input name='rooms' />
+            <Input name='adults' />
+            <Input name='children' />
           </div>
           <div className={styles.calendar}>
             <SmallCalendar />
           </div>
         </div>
-        <Button type='submit'> Proceed </Button>
+        <SubmitButton type='submit'> Proceed </SubmitButton>
         </form>
       </div>
       <div className={styles.backTop}>

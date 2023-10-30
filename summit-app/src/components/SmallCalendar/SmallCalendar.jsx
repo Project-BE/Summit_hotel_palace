@@ -26,9 +26,11 @@ const SmallCalendar = () => {
           const isSelected =
             !DayComponentProps.outsideCurrentMonth &&
             highlightedDays.indexOf(day.getDate()) >= 0;
-
+            
           return (
+            <>
               <PickersDay {...DayComponentProps} />
+            </>
           );
         }}
       />
